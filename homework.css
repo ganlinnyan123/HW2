@@ -1,0 +1,70 @@
+div h2{
+    color: slateblue;
+}
+h2:hover{
+    text-decoration:underline;
+}
+.content-in:nth-last-child(4) h2{
+    color:green;
+}
+.content-in:nth-last-child(4) p{
+    text-decoration:underline;
+}
+.content-in:nth-last-child(4) p span{
+    color:red;
+    text-decoration:underline;
+    text-decoration-color:red;
+    font-size: 1.5em;
+}
+.content-in:nth-last-child(1) p{
+    color:blue;
+    text-decoration:underline;
+    text-decoration-color:blue;
+}
+.content-in:nth-last-child(1) p span{
+    color:red;
+    text-decoration:underline;
+    text-decoration-color:red;
+    font-size: 1.5em;
+}
+.content-in:nth-last-child(2) p{
+    text-decoration:underline;
+}
+.content-in:nth-last-child(2) p span{
+    color:red;
+    text-decoration:underline;
+    text-decoration-color:red;
+    font-size: 1.5em;
+}
+.content-in:nth-last-child(3) p{
+    text-decoration:underline;
+}
+.content-in:nth-last-child(3) p span{
+    color:red;
+    text-decoration:underline;
+    text-decoration-color:red;
+    font-size: 1.5em;
+}
+.content-in:nth-last-child(2){
+    background-color: #ffa;
+}
+.content:last-of-type .content-in:nth-child(2) {
+    background-color: #faa;
+}
+.content-in:nth-child(1) img{
+    cursor : zoom-in;
+}
+.content-in:nth-child(2) img{
+    cursor : zoom-out;
+}
+.content-in:nth-child(3) img{
+    cursor : pointer;
+}
+.content-in:nth-child(4) img{
+    cursor : no-drop;
+}
+img:hover[src$="random=5"]{
+    opacity:0.5;
+}
+
+
